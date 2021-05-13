@@ -2,7 +2,7 @@ The Excel in this repo contains an example of simple neural network trained by h
 
 Description of training a NN steps are as below:
 
-![Image of simple neural network](../master/END2/Session2-Assignment/NN_example.png)
+![Image of simple neural network](./END2/Session2-Assignment/NN_example.PNG)
 
 Above image is a simple neural network with input layer, one hidden layer and an output layer consisting of two nodes in each layer. 
 
@@ -50,4 +50,4 @@ Detailed implementation of the same with solved equations can be found in excel.
 
 Below is the image of the error graph at learning rate (ɳ) = 0.5
 
-![Image of error graph at ɳ = 0.5](../master/END2/Session2-Assignment/error_garph.png)
+![Image of error graph at ɳ = 0.5](./END2/Session2-Assignment/error_garph.PNG)
