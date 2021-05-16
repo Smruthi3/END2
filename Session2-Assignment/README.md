@@ -1,4 +1,4 @@
-The Excel in this repo contains an example of simple neural network trained by hand (solving a equations for forward and backword propagation)
+The Excel in this repo contains an example of simple neural network trained by hand (solving equations for forward and backword propagation)
 
 Description of training a NN steps are as below:
 
@@ -48,6 +48,19 @@ The new weights are obtained by old weights - learning rate * gradient.
 Weights are updated N number of times until the optimal weights are found which intern would reduce the total loss. 
 Detailed implementation of the same with solved equations can be found in excel.
 
-Below is the image of the error graph at learning rate (ɳ) = 0.5
+Below find the images of the error graphs at various learning rates (ɳ) [0.1,0.2,0.5,0.8,1,2]
 
-![Image of error graph at ɳ = 0.5](./error_garph.PNG)
+![Image of error graph at ɳ = 0.1](./error_garph_LR=0.1.PNG)
+
+![Image of error graph at ɳ = 0.2](./error_garph_LR=0.2.PNG)
+
+![Image of error graph at ɳ = 0.5](./error_garph_LR=0.5.PNG)
+
+![Image of error graph at ɳ = 0.8](./error_garph_LR=0.8.PNG)
+
+![Image of error graph at ɳ = 1](./error_garph_LR=1.PNG)
+
+![Image of error graph at ɳ = 2](./error_garph_LR=2.PNG)
+
+
+
