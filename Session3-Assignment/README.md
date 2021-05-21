@@ -20,8 +20,9 @@
 
 #### Data Gerenation and Represntation strategy
 
-Considered MNIST dataset images as one of the input the model
-For the random numbder data, generated a Dataframe with two columns
+1. Considered MNIST dataset images as one of the input the model
+
+2. For the random numbder data, generated a Dataframe with two columns
 	1. input = Numbers from 0 to 9
 	2. output = Possible outcomes thats possible from summing up random numbers from 0 to 9 with MNIST data labels 0 to 9 
 	3. Repeating this sample to 600 times to match the MNIST dataset length
