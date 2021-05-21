@@ -49,4 +49,4 @@ The network consists of 2 conv2d layers, 4 linear layers
 
 Training log screen shot attched here 
 
-![Training logs](./training_logs.PNG)
+![Training logs](./training_logs1.PNG)
