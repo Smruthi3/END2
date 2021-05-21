@@ -27,8 +27,8 @@
 	2. output = Possible outcomes thats possible from summing up random numbers from 0 to 9 with MNIST data labels 0 to 9 
 	3. Repeating this sample to 600 times to match the MNIST dataset length
 	4. Custom data generation class is written to combine image and random numbder data by extending pytorch's Dataset class
-	  * The random data set's input is converted into one hot encoding tensor
-	  * This class returns the two inputs, image and random number (in one hot format) and two outputs, image label and summed output 
+		  * The random data set's input is converted into one hot encoding tensor
+		  * This class returns the two inputs, image and random number (in one hot format) and two outputs, image label and summed output 
 
 #### Building neural network here
 The network consists of 2 conv2d layers, 4 linear layers 
