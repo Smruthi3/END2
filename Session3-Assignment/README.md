@@ -16,7 +16,7 @@
 	4.you can use one-hot encoding to represent the random number input as well as the "summed" output. 
 
 
-### Following approuch is used to build a neural network  
+### Following approach is used to build a neural network  
 
 #### Data Gerenation and Represntation strategy
 
