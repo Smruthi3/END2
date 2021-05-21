@@ -47,6 +47,6 @@ The network consists of 2 conv2d layers, 4 linear layers
 	4. Based on loss and accuracy model perfomance is evaluated 
 
 
-Traing log screen shot attched here 
+Training log screen shot attched here 
 
 ![Training logs](./training_logs.PNG)
