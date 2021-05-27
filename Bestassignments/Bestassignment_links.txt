@@ -1,0 +1,16 @@
+Session 2
+https://extensive-nlp.github.io/TSAI-DeepNLP-END2.0/02_BackProp/README.html (Links to an external site.)
+https://github.com/SaiWorksHere/END-V2/tree/main/03-BackProp-Embeddings-LanguageModels (Links to an external site.)
+https://github.com/chaitanya-vanapamala/backpropagation_using_excel (Links to an external site.)
+https://github.com/pavisj/end2-nlp-pavithra (Links to an external site.)
+
+
+
+Session 3
+https://github.com/aiplaybookin/NLP/tree/main/session03 (Links to an external site.)
+https://github.com/nikshrimali/TSAI_END2_Phase1/tree/Assignment3-MnistDigit+RandomNumber (Links to an external site.)
+https://extensive-nlp.github.io/TSAI-DeepNLP-END2.0/03_PyTorch101/README.html (Links to an external site.)
+https://github.com/Code-Trees/END-GAME/tree/main/Session_3 (Links to an external site.)
+https://github.com/sudo-rickroll/END2/tree/main/S3 (Links to an external site.)
+https://github.com/pankaj90382/END-1.0/tree/main/S3 (Links to an external site.)
+ 
