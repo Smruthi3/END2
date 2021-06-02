@@ -13,4 +13,11 @@ https://extensive-nlp.github.io/TSAI-DeepNLP-END2.0/03_PyTorch101/README.html (L
 https://github.com/Code-Trees/END-GAME/tree/main/Session_3 (Links to an external site.)
 https://github.com/sudo-rickroll/END2/tree/main/S3 (Links to an external site.)
 https://github.com/pankaj90382/END-1.0/tree/main/S3 (Links to an external site.)
+
+
+Session 4:
+https://github.com/jai2shan/TSAI_END2/blob/main/Session%204/RNN_Quiz.ipynb (Links to an external site.)
+https://github.com/kotalaraghava/END-2.0---school-of-ai/blob/master/EVA_P2S3.ipynb (Links to an external site.)
+https://github.com/arghya05/END2.0_Session-4/blob/main/04_LSTM_Quiz.ipynb (Links to an external site.)
+ 
  
