@@ -2,9 +2,9 @@
 
 ### Data Overview 
 
-Data from the StanfordSentimentAnalysis Dataset is considered to build the LSTM Model 
+StanfordSentimentAnalysis Dataset is considered to build the LSTM Model 
 
-Based on Readme file given by StandordSentiment Treebank, the following way sentence and sentiment label are mapped
+Based on Readme	 file given by StandordSentiment Treebank, following way sentence and sentiment labels are mapped
 
 	1. datasetSentences.txt contains sentence and corresponding index
 	2. datasetSplit contains the sentence index and splitset label. Splitset labels 1,2,3 corresponds to tarin, test and dev respectively
@@ -19,11 +19,11 @@ Based on Readme file given by StandordSentiment Treebank, the following way sent
 
 ### Data Augmentation
 
-The following augmentation techniques are tried:
+Following augmentation techniques are performed:
 
 **Back Translation**
 
-Intially tried for all the sentences in the training data set. It look lot of time but did not convert more than few sentences so for the demonstartion purpose the below mentioned approuch is used
+Intially this technique is tried for all the sentences in the training data set. It look lot of time but did not convert more than few sentences so for the demonstartion purpose the below mentioned approuch is used
 
 Due to following limitations of the package only a random smaple of 10 sentences (why 10 just randonly chosen) are taken and performed this augmentation. Germen language is chosen here (one can choose multiple langauges too)
 
