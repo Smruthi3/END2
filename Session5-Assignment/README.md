@@ -64,13 +64,13 @@ Data set is split into train valid and test set with 70%,10% and 20% respectivel
 
 Total Trainable parameters
 
-	*classifier(
+classifier(
   (embedding): Embedding(17214, 300, padding_idx=1)
   (encoder): LSTM(300, 256, num_layers=2, batch_first=True, dropout=0.5, bidirectional=True)
   (dropout): Dropout(p=0.5, inplace=False)
   (fc): Linear(in_features=512, out_features=5, bias=True)
 	)
-	The model has 7,886,509 trainable parameters *
+	The model has 7,886,509 trainable parameters 
 	
 ### Hyper parameters
 
@@ -86,6 +86,8 @@ Total Trainable parameters
 ### Training logs
 
 **Model is trained for 30 epochs**
+
+
 ![Training logs](./training_logs.PNG)
 
 It is noticed that the model stopped learning after 9th epoch.
@@ -93,10 +95,12 @@ It is noticed that the model stopped learning after 9th epoch.
 I trained model with different the hyperparameters combinations. However could only obtain 40% accuracy on validation set
 
 **Model Evaluation result on test set** 
+
 ![Testing logs](./testing_logs.PNG)
 
 
 **Validation of the model by passing the reviews and observing it's outcome**
+
 ![Outcomes](./outcomes.PNG)
 
 
