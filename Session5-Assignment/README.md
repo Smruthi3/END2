@@ -76,7 +76,7 @@ classifier(
 
 | Parameter Name | Value |
 |----------------|:-----:|
-| Embedding DIM  | 100   |
+| Embedding DIM  | 300   |
 | HIDDEN DIM     | 256	 |
 | NUM LAYERS     |2		 |
 | DROUP OUT      |0.5	 |
