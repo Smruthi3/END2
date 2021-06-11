@@ -96,7 +96,7 @@ Example of same is attached here :
 
 ![Decoder step output](./Decoderstep_image1.PNG)
 
-![Decoder step output with predicted sentiment](./Decoderstep_image1.PNG)
+![Decoder step output with predicted sentiment](./Decoderstep_image2.PNG)
 	
 	
 ### Things to try
