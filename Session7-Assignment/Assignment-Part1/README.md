@@ -55,10 +55,9 @@ classifier(
 **Model is trained for 30 epochs**
 
 
-
 It is noticed that the model stopped learning after 11th epoch.
 
-
+#![Training logs](./training_logs.PNG)
 
 
 **Validation of the model by passing the reviews and observing it's outcome**
