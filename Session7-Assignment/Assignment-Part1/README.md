@@ -8,12 +8,12 @@ Based on Readme	 file given by StandordSentiment Treebank, following way sentenc
 
 	1. datasetSentences.txt contains sentence and corresponding index
 	2. sentiment_labels contains phrase id and sentiment values ranging from 0 to 1. Here notice that there is no one to mapping between datasetSentences and sentiment_labels
-	5. dictionary.txt contains all phrases and their IDs
-	6. Now, perfom  left join on datasetSentences and dictionary using sentence and phrases
-	7. As we have phrase id, again perform left join on previous dataset (obtained from step #6) and sentiment_labels using phrase_id and phrase id
-	8. Here we get a final table with sentiment values
-	9. Divide the sentiment values into 5 buckets [0, 0.2], (0.2, 0.4], (0.4, 0.6], (0.6, 0.8], (0.8, 1.0] and assign a label from 0 to 4
-	10.Finally, split dataset into train and test set  
+	3. dictionary.txt contains all phrases and their IDs
+	4. Now, perfom  left join on datasetSentences and dictionary using sentence and phrases
+	5. As we have phrase id, again perform left join on previous dataset (obtained from step #6) and sentiment_labels using phrase_id and phrase id
+	6. Here we get a final table with sentiment values
+	7. Divide the sentiment values into 5 buckets [0, 0.2], (0.2, 0.4], (0.4, 0.6], (0.6, 0.8], (0.8, 1.0] and assign a label from 0 to 4
+	8. Finally, split dataset into 70% train, 30% test 
 
 
 ### Building vocabulary and spitting dataset
