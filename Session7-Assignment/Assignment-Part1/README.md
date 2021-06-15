@@ -70,6 +70,7 @@ It is noticed that the model stopped learning after 11th epoch.
 
 
 **Sample of miss classified reviews**
+
 ![miss_classified_reviews](./miss_classified_reviews.PNG)
 
 
