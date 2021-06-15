@@ -55,7 +55,7 @@ classifier(
 **Model is trained for 30 epochs**
 
 
-![Training logs](./training_logs.PNG)
+![Training logs](./Training_logs.PNG)
 
 It is noticed that the model stopped learning after 11th epoch.
 
