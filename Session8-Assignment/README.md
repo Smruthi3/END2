@@ -1,4 +1,4 @@
-## Building Langauge Models using modren torchtext
+## Building Langauge Models using torchtext (modren way)  
 
 
 
