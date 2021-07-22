@@ -29,4 +29,44 @@ https://github.com/SachinDangayach/END2.0/tree/main/Session5 (Links to an extern
 https://github.com/arghya05/arghya05-END2.0_Session-5
 https://github.com/Smruthi3/END2/tree/main/Session5-Assignment (Links to an external site.)
 https://github.com/anirbanmukherjee2709/tsai_end2.0_Session_5/tree/main/Stanford%20Sentiment%20Tree%20Bank (Links to an external site.) ←Amazing work, but currently under review.
+
+
+Session 6:
+https://github.com/pavisj/end2-nlp-pavithra/tree/main/session-6 (Links to an external site.)
+https://github.com/Anish-V1073/END2.0_Assignments/blob/main/Assignment6/README.md (Links to an external site.)
+https://github.com/tfdeepnet/end2/tree/main/week7 (Links to an external site.)
+https://github.com/Gitpabora/END2/tree/master/END2/S6 (Links to an external site.)
+https://github.com/srirampattabiraman/Extensive-NLP-and-Deep-Learning/blob/main/session_6/README.md (Links to an external site.)
+https://github.com/Anish-V1073/END2.0_Assignments/tree/main/Assignment6 (Links to an external site.)
+https://extensive-nlp.github.io/TSAI-DeepNLP-END2.0/06_Encoder_Decoder/index.html (Links to an external site.)
+
+Session 7:
+https://github.com/garima-mahato/END2/blob/main/Session7-SecondHands-on/Assignment2/Readme.md (Links to an external site.)
+https://github.com/extensive-nlp/TSAI-DeepNLP-END2.0/tree/main/07_Seq2Seq (Links to an external site.)
+https://github.com/krishnarevi/TSAI_END2.0_Session7/tree/main/Assignment_1 (Links to an external site.)
+https://github.com/Smruthi3/END2/tree/main/Session7-Assignment/Assignment-Part1 (Links to an external site.)
+https://github.com/pavisj/end2-nlp-pavithra/tree/main/session-7 (Links to an external site.)
+https://github.com/arghya05/eva-2.0--session-7/tree/main/Session7 (Links to an external site.)
+https://github.com/Aditya701/END2.0_Assignment07 (Links to an external site.)
+https://github.com/manvendra7/END2.0_Assignment07 (Links to an external site.)
+https://github.com/aiplaybookin/NLP/tree/main/05_LSTM_DataAugmentation (Links to an external site.)
+https://github.com/bhuvnk/END2.0/tree/main/Session%207%20-%20Second%20Hands-on%20Encoder-Decoder/Part1_SST_Classification (Links to an external site.)
+https://github.com/tfdeepnet/end2/tree/main/week8 (Links to an external site.)
+https://github.com/mstangirala/NLP/tree/main/Session7 (Links to an external site.)
+
+Session 8:
+https://github.com/nikshrimali/TSAI_END2_Phase1/tree/Assignment8-TorchText (Links to an external site.)
+https://github.com/tfdeepnet/end2/tree/main/week9submit (Links to an external site.)
+https://github.com/mmgxa/E2A8/blob/main/README.md (Links to an external site.)
+https://github.com/garima-mahato/END2/blob/main/Session8-TorchText%26AdvancedConcepts/Readme.md (Links to an external site.)
+
+Session 9:
+https://extensive-nlp.github.io/TSAI-DeepNLP-END2.0/09_NLP_Evaluation/index.html (Links to an external site.)
+https://github.com/rk0803/END2_Assignment9/blob/main/README.md (Links to an external site.)
+https://github.com/garima-mahato/END2/blob/main/Session9-LearningRatesandEvaluationMetricsPart1/Readme.md (Links to an external site.)
+https://github.com/pankaj90382/END-1.0/tree/main/S9 (Links to an external site.)
+https://github.com/Anish-V1073/END2.0_Assignments/blob/main/Assignment9/README.md (Links to an external site.)
+https://github.com/krishnarevi/TSAI_END2.0_Session9/blob/main/README.md (Links to an external site.)
+https://github.com/Gitpabora/END2/tree/master/END2/S9 (Links to an external site.)
+ 
  
