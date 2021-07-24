@@ -40,10 +40,10 @@ For example if this is a input sentence "tu es un de ces dragueurs !".
 * The encoder_outputs contains hidden vectors of all the words and this is the output of the encoder is later used in attention block
 * For loop is used to apply above steps on one word at a time 
 
-![Ouput of the encoder for a word tu](encoder_ouput1.png)
+![Ouput of the encoder for a word tu](encoder_ouput1.PNG)
 
 
-2. Encoder:
+2. Decoder with Attention:
 
 
 
