@@ -37,11 +37,11 @@ for i in range(input_tensor.size()[0]):
 
 For example if this is a input sentence "tu es un de ces dragueurs !". 
 * For Each word in this sentence, respective index is fetched from the entire data corpus. 
-* These word indexes are passed one by one i.e say suppose word tu index is 12 that is passed to embedding layer by changing it's shape using "view(-1,1)"to have [batch_size,sen_len,emb_dim] and this is repeated for every word. This is done to make our network to understand we are sending a batch of samples instead of one word
-* The output of embedding layer is passed to LSTM layer to obtain hidden vectors (encoder_hidden) of word one by one
-* The hidden vectors of each words are appened one by one (encoder_outputs[i] += encoder_hidden[0,0])
-* The encoder_outputs contains hidden vectors of all the words and this is the output of the encoder is later used in attention block
-* For loop is used to apply above steps on one word at a time 
+* These word indexes are passed one by one i.e say suppose word tu index is 12 that is passed to embedding layer by changing it's shape using "view(-1,1)"to have [batch_size,sen_len,emb_dim] and this is repeated for every word. This is done to make our network to understand we are sending a batch of samples instead of one word.
+* The output of embedding layer is passed to LSTM layer to obtain hidden vectors (encoder_hidden) of word one by one.
+* The hidden vectors of each words are appened one by one (encoder_outputs[i] += encoder_hidden[0,0]).
+* The encoder_outputs contains hidden vectors of all the words and this is the output of the encoder is later used in attention block.
+* For loop is used to apply above steps on one word at a time. 
 
 ![Ouput of the encoder for a word tu](encoder_ouput1.PNG)
 
@@ -82,18 +82,18 @@ for i in range(6):
 
 ```
 
-* For the first time SOS token is passed as input to decoder and in subsequent steps predicted output is used incase if teacher forcing is applied then word from the actual target sentence is used
-* For the first time, the last hidden cell of the encoder is passed to decoder hidden state and in subsequent steps decoder hidden state is passed
-* Input to decoder is passed through decoder's embedding layer
-* The attention weights are obtained by passing output from embedding layer and decoder hidden state to Fully connected or linear layer
-* These attention weights are mulplited with encoders output vectors using batch matric multiplication (this is nothing but what we saw in Encoder section [encoder_outputs]) to obtain weighted attention weights. Here softmax function is applied on output of FC layer to obatined the weights for attention weights 
-* The decoder's input and weighted attention weights are passed through another FC or liner layer by concatinating, to identify for which part of encoder hidden states, more importance to be given so that decoder predicts the right word
-* Finally output from previous step is passed through LSTM layer which is then sent to anoth FC/liner layer get predicted output language words
-* For loop here apply all the above steps for one word at a time and it stops after EOS token
+* For the first time, SOS token is passed as a input to decoder and in subsequent steps predicted output is used. If teacher forcing is applied then actual target word from the  sentence is sent to decoder while training.
+* For the first time, the last hidden cell of the encoder is passed to decoder hidden state and in subsequent steps decoder hidden state is passed.
+* Input to decoder is passed through decoder's embedding layer.
+* The attention weights are obtained by passing output from embedding layer and decoder hidden state to Fully connected or linear layer.
+* These attention weights are mulplited with encoders output vectors using batch matric multiplication (this is nothing but what we saw in Encoder section [encoder_outputs]) to obtain weighted attention weights. Here softmax function is applied on output of FC layer to obatined the weights for attention weights. 
+* The decoder's input and weighted attention weights are passed through another FC or liner layer by concatinating, to identify for which part of encoder hidden states, more importance to be given so that decoder predicts the right word.
+* Finally output from previous step is passed through LSTM layer which is then sent to anoth FC/liner layer get predicted output language words.
+* For loop here apply all the above steps for one word at a time and it stops after EOS token.
 
 For the input sentence "tu es un de ces dragueurs !". The actual target sentence is "you re such a flirt"
 
-Below screen shot shows how each of the words from target sentence are predicted from the DecoderAttention steps (Basically output from above for loop )
+Below screen shot shows how each of the words from target sentence are predicted from the DecoderAttention steps (Basically output from above for loop)
   
 ![Ouput from the DecoderAttention after every word](decoder_output1.PNG)
 
