@@ -107,7 +107,7 @@ We trained for 70k iterations
 
 ![Training logs](Training_logs.PNG)
 
-Observations : The final loss of 2.27 is observed which is little more than what we obsevered using GRU. This indicates GRU works better than LSTM
+Observations : The final loss of 2.27 is observed which is more than what we obsevered using GRU i.e 0.05. Our assumption is that GRU works better than LSTM, but need to perform further experiements to confirm the same
 
 ### Sample Evalutaions ### 
 
