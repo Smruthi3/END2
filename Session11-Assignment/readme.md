@@ -95,7 +95,7 @@ For the input sentence "tu es un de ces dragueurs !". The actual target sentence
 
 Below screen shot shows how each of the words from target sentence are predicted from the DecoderAttention steps (Basically output from above for loop )
   
-![Ouput from the DecoderAttention after every word](decoder_ouput1.PNG)
+![Ouput from the DecoderAttention after every word](decoder_output1.PNG)
 
 
 ###  Model Training logs ###
