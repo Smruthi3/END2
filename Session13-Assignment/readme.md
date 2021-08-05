@@ -6,7 +6,7 @@ Submitted as a **group assignment** by
 - Pavithra Solai
 - Anirban Mukherjee
 
-### **Objective:** Creating a Transformer model for translating sentences from German to English from scratch (by replacing the legacy torch code to modren way in the shared code) ###
+### **Objective:** Creating a Transformer model for translating sentences from German to English from scratch (by replacing the legacy torchtext code to modren way) ###
 
 
 ### Data set used : Multi30k ###
